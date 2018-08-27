@@ -1,0 +1,1272 @@
+/*
+#------------------------------------------------------------------------
+# Mo - January Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+/***/
+#gkMainMenu .gkMenu > ul li div.childcontent {
+background: none;}
+#gkMainMenu .gkMenu > ul > li > .childcontent,
+#gkMainMenu .gkMenu > ul > li > .childcontent .childcontent {
+	border:none;
+	position: absolute;
+	left: -999em;
+	z-index: 999;}
+	
+#gkMainMenu .gkMenu > ul > li > .childcontent ul > li a {color:#fff;}
+#gkMainMenu .gkMenu > ul li div.childcontent ul {
+    padding: 0px 0px;
+}
+
+#gkMainMenu .gkMenu > ul > li a:hover,
+#gkMainMenu .gkMenu > ul > li > .childcontent ul > li a:hover
+#gkMainMenu .gkMenu > ul > li > a.active{color:#2297fa;}
+
+/******Color of the selected nav****/
+#gkMainMenu .gkMenu > ul > li > a.active,
+#gkMainMenu .gkMenu > ul > li > a:active
+#gkMainMenu .gkMenu > ul > li > a:focus,
+#gkMainMenu .gkMenu > ul > li > a:hover {
+	color: #d4c472; /**#fff**/
+	/**font-weight:600;**/
+}
+
+#gkMainMenu .gkMenu > ul > li > .childcontent,
+#gkMainMenu .gkMenu > ul > li > .childcontent .childcontent {
+	border: 0px solid #8e9798;
+}
+/*****Line 87 in menu.css*****/
+#gkMainMenu .gkMenu > ul li div.childcontent {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+/*****Menu.css Line 32 decreases the distance between Main Menu item and the dropdown*****/
+#gkMainMenu .gkMenu > ul > li > a {
+height:65px;
+}
+/*********Left aligns dropdown with Main Menu item Menu.css Line 125************/
+#gkMainMenu .gkMenu > ul li div.childcontent a{
+padding:6px 20px;
+}
+/**Changes the hover color inside the drop down**/
+div#gkBg div#gkContentWrapper.gkPage 
+div#gkHeader div#gkTop div#gkMainMenu.gkPage 
+nav#gkExtraMenu.gkMenu ul.gkmenu.level0 li.haschild div.childcontent 
+div.childcontent-inner div.gkcol.gkcol1.first ul.gkmenu.level1 li a:hover{
+color:#eddb80/**#d4c472**/
+}
+/**
+/* Styling for Text on Banner..not used 
+.custom.gk-header1 { padding: 100px 70px 0px 0px; }**/
+
+/*******Aligning the nav bar with the logo (bottom align)*********/
+nav#gkExtraMenu.gkMenu{
+margin: 20px 0 0;
+}
+
+/*#gkHeader {background: red;}*/
+/***Sets the height of the Header bar it is adjusted for the longest dropdown to fit**/
+#gkHeader {
+min-height: 200px;
+}
+
+/*Changes the spacing between the header and the content in the articles Life/Career/Affiliations etc */
+#gkPageContent{padding: 27px 120px;}
+	
+p {
+	text-align:justify;
+}
+
+.gkTabsNav {
+margin: 10px 0px;
+}
+
+/***Removes the line below title in K2 items k2.css line 397****/
+.itemList article {
+border-top: none;
+}
+
+/***Removes the line below title in K2 items k2.css line 87****/
+.itemsCategory > h2 {
+border-bottom: none;
+}
+
+/*Hides Keynote Addresses and Convocation Addresses Menu
+.nodisplay {
+display:none !important;
+}*/
+
+
+/**Line of Social API which was appearing in all articles**/
+#gkSocialAPI {
+    border-top: none;
+	}
+
+/**Reduces the spacing between Affiliations title and tabs**/
+div#gkMainbody article.item-page.myaffiliationscss.single-item{
+    margin-bottom: -55px;
+}
+
+/**Spacing between Affiliations tabs blue line and the ul**/
+/**div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage section#gkContent div#gkMainbodyBottom div.box.mytabcss.nooverflow div.content div#gk-tabs-725.gkTabsGK5 div.gkTabsWrap.vertical div.gkTabsContainer div.gkTabsItem.gk-opacity.gk-active ul.gkBullet1**/	
+div.box.mytabcss.nooverflow div.content 
+div.gkTabsContainer div.gkTabsItem.gk-opacity.gk-active ul.gkBullet1{
+margin: 0 0;
+}
+/*********Speeches*********/
+/*******Removes the bullet before the li's in Speeches page*******/
+div.box.mySpeechescss div.content div.custom.mySpeechescss ol li:before,
+div.custom.mySpeechesConvocationcss div.myConvocationAddr ol li:before{
+content:none;
+}
+/**
+div#gkBottom1 div.gkCols6 div#gkBottom1-1.box.mySpeechescss.gkmod-2{
+padding-top:0;
+}**/
+/****Distance between Keynote Addresses title and ol***/
+div#gkBottom1-1.box.mySpeechescss.gkmod-1 div.content div.custom.mySpeechescss ol{
+margin:0;
+}
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom1.gkSingleModule 
+div.gkCols6 div#gkBottom1-1.box.mySpeechescss.gkmod-1{
+margin-top:-80px;
+padding-top:75px;
+}
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage section#gkContent 
+div#gkMainbody article.item-page.speechescss123.single-item div.itemBody header:after{
+margin-bottom:-10px;
+}
+/****Distance between Convocation Addresses Title and ol**/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap 
+div#gkBottom2.gkSingleModule div.gkCols6 
+div.box.mySpeechesConvocationcss.gkmod-1 div.content div.custom.mySpeechesConvocationcss 
+div.myConvocationAddr ol{
+margin:10px 0;
+} 
+/******Distance between Keynote Addresses ol and Convocation Addresses*******/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom1.gkSingleModule div.gkCols6 
+div#gkBottom1-1.box.mySpeechescss.gkmod-1 div.content div.custom.mySpeechescss ol{
+margin-bottom: -70px; 
+}
+/***Left Aligns li with Keynote Addresses title***/
+div#gkBottom1-1.box.mySpeechescss.gkmod-1 div.content div.custom.mySpeechescss ol li{
+padding:0;
+}
+/***Left Aligns li with Convocation Addresses title***/
+div.content div.custom.mySpeechesConvocationcss div.myConvocationAddr ol li{
+padding:0;
+}
+
+/******Distance between Keynote and Convocation block******/
+div#gkBottom2.gkSingleModule div.gkCols6 div.box.mySpeechesConvocationcss.gkmod-1{
+padding-top: 30px; 
+}
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom1.gkSingleModule{
+padding-bottom:0px; /**0px**/
+}
+/************End Speeches*********/
+
+/***Menu->Articles:Reduces distance between the title of page and first article****/
+.itemList article {
+    padding-top: 0px;
+	}
+/**********Distance between Title and Underline in Life/Career/Affiliations/Awards and Reco/Patents and Papers/Books/Articles/Interviews/Videos/Speeches***********/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-pagemylifecss.single-item div.itemBody header h1,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.mycareercss.single-item div.itemBody header h1,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.myaffiliationscss.single-item div.itemBody header h1,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-pagemyaandrcss.single-item div.itemBody header h1,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.single-item div.itemBody header h1,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article#k2Container.itemView.single-item div.itemBody header h1{
+margin:0;
+}
+/*********Books:Books with Covers box border stretching***************/
+@media (width: 768px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.mylistwithpoints.mygkcols div.content 
+div.custom.mylistwithpoints.mygkcols div div.gkCols div.gkblock-1{
+min-height:410px;
+}
+}
+/***********/
+@media (min-width: 320px) and (max-width: 360px){
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-pagemyaandrcss.single-item div.itemBody header h1{
+margin:10px 0 55px;
+}
+/*******Patents and Papers******/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.single-item div.itemBody header h1{
+margin-bottom: 60px;
+}
+/*******Awards and Reco Center aligns award pic********/
+/**Changes gkBlockTextLeft to gkBlockTextCenter(by copying styling of gkBlockTextCenter)***/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.mylistwithpoints div.content div.custom.mylistwithpoints 
+div.myclass div.gkblock-1 div.gk-point span.gkBlockTextLeft{
+	color: #5c565e;
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 170%;
+    padding: 0px 5px 20px;
+    width: 95%;
+	margin: 0 auto;
+    text-align: center;
+	float:none;
+}
+}	
+/**Font size of heading of articles in Articles page(same as that in Interviews page)
+article header h2 {
+    font-size: 24px;
+	}
+***/	
+/****Affiliations:Added mytabcss in Module Suffix field in Tabs GK5 to color the bullet blue****/
+div#gkMainbodyBottom div.box div.content div.custom ul.gkBullet1 li:before, 
+div.box.mytabcss ul.gkBullet1 li:before{
+color:#97ccee;
+}
+
+/******Awards and Recognition********/
+/********Removes the dot inside the circle (in Books and Awards and Recognition)decoration in list with points (Demo typography/frontpage elements)*********/
+/**div.custom.mylistwithpoints div.gkblock-1 div.gk-point h4:before**/
+/***myclass added in Awards and Recognition module in the Toggle Editor****/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.mylistwithpoints 
+div.content div.custom.mylistwithpoints div.myclass div.gkblock-1 div.gk-point h4:before,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.mylistwithpoints.mygkcols 
+div.content div.custom.mylistwithpoints.mygkcols div div.gkCols div.gkblock-1 div.gk-point h4:before
+{
+border:none;
+margin:0px;
+padding:0px;
+width:0px
+}
+
+div#gkMainbody article.item-pagemyaandrcss.single-item div.itemBody{
+	margin-bottom: -35px;
+    width: 100%;
+}
+
+/***Length of line after the title Awards and Recognition***/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-pagemyaandrcss.single-item div.itemBody header:after{
+width:55%;
+}
+
+/***All titles should be Helvetica(Not sure of presence of color/font-size)****/
+/******Other Videos on Videos page*******/
+.myvideoscssh4{
+	color: #363636;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 24px;
+	font-family: Helvetica,sans-serif !important;
+	line-height: 1.2;
+    padding: 0;
+	word-wrap: break-word;
+}
+
+.myvideoscssh5{
+font-size: 16px;
+font-family: Helvetica,sans-serif !important;
+padding-top: 10px;
+}
+/*********Styling for Other Videos Box Videos page*********/
+/**div.myclass.gkblock-1{
+width:100%;
+}
+/***All titles should be Helvetica(Not sure of presence of color/font-size)****/
+.gk-point h4 {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 24px;
+	font-family: Helvetica,sans-serif !important;
+	line-height: 1.2;
+    padding: 0;
+	word-wrap: break-word;
+}
+
+div.custom h5{
+font-size: 16px;
+font-family: Helvetica,sans-serif !important;
+}
+/*******Adjusts the margin/width of video blocks on Videos page***********/
+article.item-page.myvideoscss.single-item div.itemBody div span div.gkCols div.gkblock-1{
+width: 45%;
+margin:20px 5px; /*Older was 30px 30px*/
+}
+div#gkMainbody article.item-page.myvideoscss.single-item div.itemBody div span div.gkCols{
+margin: 0 auto;
+}
+/*****Awards and Recognition:The photo was flowing out of the box. The div class="gkblock-1" (as in typography) *******/
+.gkblock-1{overflow:hidden;}
+/******Adjusts the space between Award pic and the surrounding*********/
+div.myclass div.gkblock-1 div.gk-point span.gkBlockTextLeft {
+    margin-right: -10px;
+    margin-top: -30px;
+    width: 31%;
+}
+/********Adjusts the space around Award description********/
+div.custom.mylistwithpoints div.myclass div.gkblock-1 div.gk-point p{
+margin-top: -12px;
+}
+/******End Awards and Recognition*******/
+article.itemView.groupLeading.myvideoscss div.itemBlock div.itemBody header h2{
+font-size:20px!important;
+}
+
+/*********Distance between Patents and Papers title and tabs************/
+div#gk-tab-1.gkTabsGK5	{
+	margin-top: -50px;
+    overflow: hidden;
+    position: relative;}
+	
+div.custom.mypatentsandpapers div.banneritem a{
+font-size:18px;
+}
+/******Increases the size of Logo, earlier was 139px********/
+#gkLogo {
+width:45%;
+}
+/*******Distance of Logo from the top********/
+.has-header .gkLogo {
+top: 40px;
+}
+
+/*********Footer Copyright Styling**********/
+#gkCopyrights {
+    margin: 0;
+    padding: 0 0 0 0;
+    width:100%;
+}
+#gkFooter{
+padding: 20px 120px; /******Adjusts height of footer*****/
+font-size: 9px;
+}
+
+@media (max-width: 320px){
+div#gkBg div#gkContentWrapper.gkPage footer#gkFooter{
+font-size: 9px;
+padding-top:5px;
+padding-bottom:5px;
+}
+}
+@media (max-width:360px){
+div#gkBg div#gkContentWrapper.gkPage footer#gkFooter{
+font-size: 9px;
+padding-top:5px;
+padding-bottom:45px;
+}
+}
+/**********Makes Logo responsive*************/
+@media (max-width: 680px) {
+    div#gkTop h1.gkLogo a#gkLogo img {
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    max-width: 220px
+    }
+    }
+
+/*********HOME Page STYLING REMOVE*********/
+/****Sets the title color on the home page
+.mystylehome h3 a:hover {
+    color: #d4c472;
+}
+
+.mystylehome h3 a {
+    color: #292b31;
+}
+/***********Line below Life****************/
+hr.mylifehr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    width: 50%;
+	text-align:center;/**Does not work in IE**/
+	margin:0 auto;/**Does the same thing as text-align:center but this works in IE**/
+}
+hr.mylifehrsmall {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    width: 20%;
+	text-align:center;/**Does not work in IE**/
+	margin:0 auto;/**Does the same thing as text-align:center but this works in IE**/
+}
+/******Underline for Anjani Mashelkar title Home page***/
+/**hr.mylifehrbig {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    width: 70%;
+	text-align:center;/**Does not work in IE
+	margin:0 auto;/**Does the same thing as text-align:center but this works in IE
+}
+
+
+/**********Left aligns Life text*******
+div.custom.big-title.centered.mystylehome p{
+text-align: left;
+margin: 10px 0px;
+}
+/********Distance between Life and Awards on home page**
+div.custom.mystylehome.mylistwithpoints div.box.big-title.centered.gkmod-1{
+	padding-left: 0;
+    padding-right: 0;
+    padding-top: 12px;
+}
+/*********End HOME Page*********/
+
+/*******Distance between Title and line on all pages******/
+article header:after {
+    padding: 14px 0 0;
+  }
+ /*****Distance between page Title and start of content in Affiliations*****/
+div#gkMainbodyBottom{
+	margin-top: 0;
+    padding-top: 8px !important;
+} 
+/********Removes the circle around the numbers in Patents and Papers*********/
+p.numblocks.num-2 span{
+border: none;
+}
+/**********Videos************/
+div#gkMainbody article.item-page.myvideoscss.single-item div.itemBody header{
+margin-bottom:-18px;
+margin-left:5px;
+}
+
+/******Distance between the Books Title and the start of content in Books.
+Also shifts the content left inline with the Books title******/
+div.custom.mylistwithpoints div.gkCols{
+margin: -84px 0px;
+width: auto;
+}
+/******Sets the height of columns in Books1 w/o covers*******/
+div.custom.mylistwithpoints.mygkcols1 div.gkCols div.gkblock-1{
+height:260px;
+width:33.333%;
+
+}
+
+/******Sets the height of columns in Books2 w/o covers*******/
+div.custom.mylistwithpoints.mygkcols2 div.gkCols div.gkblock-1{
+height:310px;
+width:33.333%;
+}
+/******Sets the width,height of columns in Books  w covers*******/
+div.custom.mylistwithpoints.mygkcols div.gkCols div.gkblock-1{
+height:450px; 
+width:50%;
+padding:0 10px;/***Maintains border in Zoom In**/
+}
+/*********Books Page:Title of Books Helvetica*********/
+div.gkblock-1 div h4{
+	color: #363636;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 24px;
+	font-family: Helvetica,sans-serif !important;
+	line-height: 1.2;
+    padding: 0;
+	word-wrap: break-word;
+}
+div.gk-point p span a img.buyCss{
+padding-top:10px;
+}
+/********Removes lang/debug after Footer**********/
+#gkBg {
+padding:0;
+}
+/*********Top Margin for readmore in Deepmala articles************/
+.readon {
+    padding: 0 30px;
+	margin-top:20px;
+}
+/**********small.tablet.css(line 79) Adjusts the dist between header and start of life on Home page**************/
+/***Bold text in Speeches***/
+strong { 
+    font-weight: 700; /**normalize.css line 140 it is 500 this doesnt make the text bold***/
+}
+/*********Youtubegallery not used...delete***************/
+@media (max-width: 380px) {
+    div#YoutubeGalleryMainContainer1 div {
+    position:relative;top:60px;left:10px;border: none;width:90%;height:400px;
+    }
+    }
+/**************/
+iframe[id^='twitter-widget-']{ width:80% !important;
+
+}
+
+/********Makes the links in Deepmala series golden**********/
+#itemListLinks a {
+    color: #d4c472;
+}
+/*******Reduces the distance between deepmala articles and More... list***********/
+article.itemView.groupLeading{
+margin-bottom: 0px !important;
+}
+/*******Center aligns Twitter widget on the Home page*******/
+html.js.canvas.no-touch.cssanimations.cssgradients.csstransforms.csstransforms3d.csstransitions.svg.inlinesvg.svgclippaths body.frontpage.frontpage-header1.style1.loaded div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage section#gkContent div#gkMainbodyBottom div.box div.content div.bt-twitter iframe#twitter-widget-0.twitter-timeline.twitter-timeline-rendered{
+display:block !important;
+margin:auto !important;
+}
+/**********Responsive********/
+/*******Awards bounding box height*********/
+@media (min-width: 768px) and (max-width:800px){
+div.custom.mystylehome.mylistwithpoints div.gkCols div.gkblock-1{
+height:230px;
+}
+}
+/*******RAM image in Life********/
+@media (min-width: 320px) and (max-width: 540px){
+div#gkMainbody article.item-pagemylifecss.single-item div.itemBody div span p span.life_1.gkBlockTextLeft{
+width: 58%;
+padding: 10px 15px 0 0;
+}
+}
+@media (min-width: 541px) and (max-width: 980px){
+div#gkMainbody article.item-pagemylifecss.single-item div.itemBody div span p span.life_1.gkBlockTextLeft
+{
+    width: 33%;
+	padding: 10px 15px 0 0;
+}
+}
+@media (min-width: 981px) and (max-width: 1280px){ 
+div#gkMainbody article.item-pagemylifecss.single-item div.itemBody div span p span.life_1.gkBlockTextLeft
+{
+    width: 23%;
+	padding: 10px 15px 0 0;
+}
+}
+/*******Adjusts the Rheometer pic in Life*******/
+@media (min-width: 320px) and (max-width: 540px){
+div#gkMainbody article.item-pagemylifecss.single-item div.itemBody div span p span.life_2.gkBlockTextRight {
+	padding: 10px 0px 0px 10px; /*****padding-bottom:10px*****/
+	width:48%;
+}
+}
+
+@media (min-width: 541px) and (max-width: 800px){
+div#gkMainbody article.item-pagemylifecss.single-item div.itemBody div span p span.life_2.gkBlockTextRight {
+	padding: 10px 0px 0px 10px;/*****padding-bottom:10px*****/
+	width:48%;
+}
+}
+
+@media (min-width: 801px){
+div#gkMainbody article.item-pagemylifecss.single-item div.itemBody div span p span.life_2.gkBlockTextRight {
+	padding: 10px 0px 0px 10px;/*****padding-bottom:10px*****/
+	width:25%;
+}
+}
+/*******End Adjusts the Rheometer pic in Life*******/
+/******Adjusts the Haldighati pic in Career******/
+@media (min-width: 320px) and (max-width: 540px){  
+div#gkMainbody article.item-page.mycareercss.single-item 
+div.itemBody div span p span.gkBlockTextRight {
+	width: 50%; 
+	padding:10px 0px 0px 10px;
+}
+}
+@media (min-width: 541px) and (max-width: 800px){
+div#gkMainbody article.item-page.mycareercss.single-item 
+div.itemBody div span p span.gkBlockTextRight {
+	width: 35%; 
+	padding:10px 0px 0px 10px;
+}
+}
+@media (min-width: 801px) and (max-width: 1280px){
+div#gkMainbody article.item-page.mycareercss.single-item 
+div.itemBody div span p span.gkBlockTextRight {
+	width: 24%; /*****19*****/
+	padding:10px 0px 0px 0px;/*****Padding-left:10px*****/ 
+}
+}
+.gkBlockTextRight {
+	width: 19%;
+	padding:10px 0px 0px 10px;
+    }
+@media (min-width: 1281px) and (max-width: 1440px){
+div#gkMainbody article.item-page.mycareercss.single-item 
+div.itemBody div span p span.gkBlockTextRight {
+	width: 19%; 
+	padding:10px 0px 0px 10px;
+}
+}
+/******Adjusts the width of Rajiv G on Career******/
+@media (min-width: 320px) and (max-width: 720px){
+div#gkMainbody article.item-page.mycareercss.single-item div.itemBody div span p span.career_1.gkBlockTextLeft{
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:0px;
+	padding-left:0px;
+    width: 55%;
+}
+}
+@media (min-width: 721px){
+div#gkMainbody article.item-page.mycareercss.single-item div.itemBody div span p span.career_1.gkBlockTextLeft{
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:0px;
+	padding-left:0px;
+	width: 29%;
+}
+}
+/******End Adjusts the width of Rajiv G on Career******/
+/*********Adjusts Business star on Career********/
+@media (min-width: 320px) and (max-width: 540px){ /******320/360********/
+div#gkMainbody article.item-page.mycareercss.single-item div.itemBody div span p span.career_2.gkBlockTextLeft{
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:0px;
+	padding-left:0px;
+    width: 60%;
+}
+}
+@media (min-width: 541px) and (max-width: 800px){ /**768/800****/
+div#gkMainbody article.item-page.mycareercss.single-item div.itemBody div span p span.career_2.gkBlockTextLeft{
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:0px;
+	padding-left:0px;
+    width: 33%;
+}
+}
+@media (min-width: 801px) and (max-width: 1024px){
+div#gkMainbody article.item-page.mycareercss.single-item div.itemBody div span p span.career_2.gkBlockTextLeft{
+	padding-top:10px;
+	padding-right:12px;
+	padding-bottom:0px;
+	padding-left:0px;
+    width: 30%;
+}
+}
+@media (min-width: 1025px) and (max-width: 1440px){ /**1280px***/
+div#gkMainbody article.item-page.mycareercss.single-item div.itemBody div span p span.career_2.gkBlockTextLeft{
+	padding-top:10px;
+	padding-right:12px;
+	padding-bottom:0px;
+	padding-left:0px;
+    width: 20%;
+}
+}
+/*********End Adjusts Business star on Career********/
+
+/******Sets the color of 1,2,3.... to gold on Interviews/Articles******/
+div#gkMainbody article#k2Container.itemView.single-item div.itemBody div.itemFullText ol li{
+color:#d4c472;
+}
+/***************/
+/******Sets the color of 1,2,3.... to gold on Speeches******/
+div#gkBottom1-1.box.mySpeechescss.gkmod-1 div.content div.custom.mySpeechescss ol li{
+color:#d4c472;
+}
+div.custom.mySpeechesConvocationcss div.myConvocationAddr ol li{
+color:#d4c472;
+}
+/*********NDTV video image styling:Videos**********/
+div#flv123 img{
+	margin: 0px 28px 40px;
+	width:373px;
+}
+@media (min-width: 320px) and (max-width: 1400px){
+div#flv123 img{
+	margin: 0px 0px 40px;
+	width:373px;
+}
+}
+/*******Please copy in line 701 *******NEW AMIIA HEADER STYLING*****************/
+@media (min-width: 320px) and (max-width: 480px){
+div.custom.gk-header2 {
+background-image: none !important;
+}
+p#p1AMIIA{
+ text-align: center; color: #b4a76d; padding-left: 0%; padding-top:19%;
+ }
+  span#id6{
+ font-size: 18pt; line-height: 1.2;
+ }
+ h4#h4amiia{
+	font-size:20px;
+	color: #ffffff;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 12px;
+    padding: 0;
+ }
+ span#id1, span#id2, span#id3, span#id4, span#id5{
+ color: #ffffff; font-size:16px;font-weight:300;
+ }
+ 
+ a#ares{
+ background: none; border: 1px solid #b4a76d; border-radius: 0; font-size: 14px; font-weight: 100; color: #b4a76d; margin-bottom: 15%; padding: 0px 10px;
+ }
+}
+@media (min-width: 480px) and (max-width: 980px){
+div.custom.gk-header2 {
+background-image: none !important;
+}
+p#p1AMIIA{
+ text-align: center; color: #b4a76d; padding-left: 0%; padding-top:19%;
+ }
+  span#id6{
+ font-size: 18pt; line-height: 1.2;
+ }
+ h4#h4amiia{
+	font-size:20px;
+	color: #ffffff;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 12px;
+    padding: 0;
+ }
+  span#id1, span#id2, span#id3, span#id4, span#id5{
+ color: #ffffff; font-size:18px;font-weight:400;
+ }
+  a#ares{
+ background: none; border: 1px solid #b4a76d; border-radius: 0; font-size: 14px; font-weight: 100; color: #b4a76d; margin-bottom: 15%; padding: 0px 10px;
+ }
+}
+@media (min-width: 981px) and (max-width: 1200px){
+div.custom.gk-header2 {
+background-image: none !important;
+}
+div#amiiaouter {
+margin-bottom: -10px; 
+padding: 90px;
+}
+ p#p1AMIIA{
+ text-align: center; color: #b4a76d; padding-left: 0%;
+ }
+ 
+ span#id6{
+ font-size: 24pt; line-height: 1.2;
+ }
+ 
+ h4#h4amiia{
+ text-align: center; padding-left: 60px;
+ }
+ 
+ span#id1{
+ color: #ffffff; padding-left: 0%;
+ }
+ span#id2{
+ color: #ffffff; padding-left: 0%;
+ }
+ span#id3{
+ color: #ffffff; padding-left: 0%;
+ }
+ span#id4{
+ color: #ffffff; padding-left: 0%;
+ }
+ span#id5{
+ color: #ffffff; padding-left: 0%;font-size: 14pt;
+ }
+ a#ares{
+ background: none; border: 1px solid #b4a76d; border-radius: 0; font-size: 14px; font-weight: 100; color: #b4a76d; margin-left: 0%; padding: 0px 10px;
+ }
+ }
+ @media (min-width: 1201px) and (max-width: 1920px){
+div.custom.gk-header2 {
+/**background-image: url('/mashelkar/images/banners/homebanner_amiia_wotext.png') !important;**/
+}
+div#amiiaouter {
+margin-bottom: -10px; 
+padding: 90px;
+}
+ p#p1AMIIA{
+ text-align: center; color: #b4a76d; padding-left: 39%;
+ }
+ 
+ span#id6{
+ font-size: 20pt; line-height: 1.2;padding-left:7%;
+ }
+ 
+ h4#h4amiia{
+ text-align: center; padding-left: 60px;
+ }
+ 
+ span#id1{
+ color: #ffffff; padding-left: 39%;
+ }
+ span#id2{
+ color: #ffffff; padding-left: 39%;
+ }
+ span#id3{
+ color: #ffffff; padding-left: 39%;
+ }
+ span#id4{
+ color: #ffffff; padding-left: 39%;
+ }
+ span#id5{
+ color: #ffffff; padding-left: 39%;font-size: 14pt;
+ }
+ a#ares{
+ background: none; border: 1px solid #b4a76d; border-radius: 0; font-size: 14px; font-weight: 100; color: #b4a76d; margin-left: 42%; padding: 0px 10px;
+ }
+ }
+ /**************END NEW AMIIA*****************/
+div.myAMIIAcss div.gkblock-1 div.gk-point div span.gkBlockTextRight{
+   margin-right: -260px;
+   margin-top: -186px;
+   margin-bottom: -10px;
+   width:30%;
+}
+div.myAMIIAcss div.gkblock-1 div.gk-point div div#p1AMIIA{
+	margin: 16px 0px 0px 30px;
+    width: 69%;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+div.myAMIIAcss div.gkblock-1 div.gk-point div div#p2AMIIA{
+	font-family: Raleway,Arial,sans-serif;
+	font-size: 22px;
+    font-weight: 450;
+    line-height: 1.7;
+	color:#50595a;
+	width:69%;
+	margin: 16px 0px 0px 30px;
+}
+/********END AMIIA styling:HOME********/
+/*******Books with Covers image styling*********/
+div.gk-point span.myBooksWithcover2.gkBlockTextLeft{
+padding: 0 0px 0 0;
+width:28%;
+}
+div.gkblock-1 div.gk-point span.myBooksWithcover1.gkBlockTextLeft{
+padding: 0 5px 0 0;
+width:28%;
+}
+/*******End Books with Covers image styling*********/
+/******Distance between end of content and start of footer in Interviews*******/
+#gkContent {
+    padding: 0 0;
+}
+/*********Distance between end of content and start of footer in Life/Career***********/
+#gkSocialAPI {
+padding:0 0;
+display: none;
+}
+
+/******Distance between Books title and Content in Books********/
+body.style1.loaded div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom{
+margin-top:50px;
+}
+/************Distance between Affiliations and Chairmanship...increases in potrait mode in mobile*****/
+@media (min-width: 481px) nand (max-width: 720px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.mytabcss.nooverflow{
+	margin-top:-35px;
+	}
+}
+/******Distance between Banner and RA Mashelkar in HOME page********/
+body.frontpage.frontpage-header1.style1.loaded div#gkBg div#gkContentWrapper.gkPage 
+div#gkPageContentWrap div#gkPageContent.gkPage section#gkContent div#gkMainbodyBottom{
+margin-top:10px;
+}
+
+/****************Adjusts distance between Affiliations and Content******************/
+@media (min-width: 320px) and (max-width: 480px){
+body.style1.loaded div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom{
+margin-top:10px;
+}
+}
+
+/********???Distance between Videos title and content************/
+div#gkMainbody article.item-page.myvideoscss.single-item div.itemBody header{
+margin-bottom:36px;
+}
+/********Gives spacing between Twitter and Footer*******
+section#gkContent div#gkMainbodyBottom div.box{
+margin-bottom:10px !important;
+}
+/*****************/
+/*********Contacts page********/
+.contact > h3:nth-child(2){
+display:none;
+padding-top:0;
+}
+section#gkContent div#gkMainbody div.contact.contactsCss h3{
+display:none;
+}
+/***********************/
+/********Twitter Styling in Menu********/
+/**li.last a#menu783.last
+{
+display: inline-block;
+  padding: 1px 3px 0 19px;
+  border: #ccc solid 1px;
+  border-radius: 3px;
+  background: #f8f8f8 url(img/bird.png) 2px 3px no-repeat;
+  background: url(img/bird.png) 2px 3px no-repeat,
+              -webkit-linear-gradient(#fff, #dedede);
+  background: url(img/bird.png) 2px 3px no-repeat,
+              linear-gradient(#fff, #dedede);
+  background-size: 16px 13px, auto auto;**/
+  
+ /* Text */
+ /** 
+  font: bold 11px/17px Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  white-space: nowrap;
+  height:18px;
+}**/
+/********End Twitter Follow Me Styling in Menu********/
+
+/*********Hides blank row after Header in HOME page**************/
+/**div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage{
+display:none;
+}**/
+/*******Distance between Header and Titles on Life/Career/Awards and Reco/Affiliations******/
+@media (min-width: 320px) and (max-width: 800px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.myaffiliationscss.single-item, 
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.mycareercss.single-item,
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-pagemylifecss.single-item,
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-pagemyaandrcss.single-item,
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.single-item,
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article#k2Container.itemView.single-item{
+padding:0;
+margin:0;
+}
+/*******Distance between Header and Titles on Life/Career/Awards and Reco/Affiliations******/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.mycareercss.single-item div.itemBody header h1,
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-pagemylifecss.single-item div.itemBody header h1,
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.myaffiliationscss.single-item div.itemBody header h1,
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.single-item div.itemBody header h1,
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article#k2Container.itemView.single-item div.itemBody header h1{
+padding: 1px 0 0;
+}
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.myaffiliationscss.single-item div.itemBody{
+margin-bottom: 0px;
+}
+/********Hides GK Social div********/
+div#gkMainbody article.item-page.myaffiliationscss.single-item div.itemBody div#gkSocialAPI{
+display:none;
+}
+}
+
+@media (min-width: 320px) and (max-width: 360px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.mytabcss.nooverflow h3.header{
+margin-top: -10px;
+}
+}
+@media (min-width: 768px) and (max-width: 800px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.mytabcss.nooverflow h3.header{
+margin-top: -55px;
+}
+}
+/********Header size for h3********/
+@media (min-width: 320px) and (max-width: 800px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.mytabcss.nooverflow h3.header{
+	font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+}
+}
+/*******Speeches page Keynote/Convocation titles*******/
+@media (min-width: 320px) and (max-width: 800px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom1.gkSingleModule 
+div.gkCols6 div#gkBottom1-1.box.mySpeechescss.gkmod-1{
+margin-top: -45px;
+}
+}
+@media (min-width: 320px) and (max-width: 800px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom2.gkSingleModule 
+div.gkCols6 div.box.mySpeechesConvocationcss.gkmod-1{
+margin-top: -30px;/**Old -30px**/
+}
+}
+/**********Responsive Banner **********/
+@media (min-width: 768px){
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div.custom div.homeBanner2{
+display:none;
+}
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div.custom div.homeBanner1{
+width:100%;
+min-height:450px;
+/**background:#292b31;**/
+/**background:url('/RAMashelkar/images/banners/RAM-banner-gr.png') no-repeat;**/
+}
+}
+
+@media (min-width: 320px) and (max-width: 360px){
+/**div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div.custom div.homeBanner1{
+display:none;
+}
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div.custom div.homeBanner2{
+width:100%;
+height:500px;
+background:url('/RAMashelkar/images/banners/banner_responsive400_500.png') no-repeat;
+}**/
+/*div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div.custom{
+/*padding-top:50px;
+}
+*/
+/***********Shifts the Aside Menu(Responsive menu) near top***********/
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div#gkTop div#gkMobileMenu.gkPage{
+margin:0px !important;
+}
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header 
+div#gkTop div#gkMobileMenu.gkPage i#mobile-menu-toggler.gk-icon-menu{
+margin-top: 10px !important;
+}
+/*******************/
+/**********Shifts Logo********/
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader div#gkTop h1.gkLogo{
+top:0px;
+margin-left: -30px;
+}
+/***Mobile Menu positioning****/
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader div#gkTop div#gkMobileMenu.gkPage{
+height: 50px;
+margin: 0px 0 10px 20px !important;/**40px 0 10px 20px****/
+}
+}/**END (min-width: 320px) and (max-width: 360px)
+/*********Responsive Banner**************/
+@media (max-width: 320px){
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div.custom div.homeBanner1{
+display:none;
+}
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div.custom div.homeBanner2{
+width:100%;
+height:480px;
+background:url('/RAMashelkar/images/banners/home320-480.png') no-repeat;
+}
+}/***END @media (max-width: 320px)****/
+/*********Responsive Banner**************/
+@media (min-width: 330px) and (max-width: 360px){
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div.custom div.homeBanner1{
+display:none;
+}
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader.has-header div.custom div.homeBanner2{
+width:100%;
+height:500px;
+background:url('/RAMashelkar/images/banners/banner_responsive400_500.png') no-repeat;
+}
+}/***END @media (max-width: 360px)****/
+
+/***Logo positioning****/
+@media (min-width: 320px) and (max-width: 360px){
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader div#gkTop h1.gkLogo{
+top:0px;
+margin-left: -30px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 980px){
+div#gkBg div#gkContentWrapper.gkPage div#gkHeader div#gkTop h1.gkLogo{
+left:0;
+top:40px;
+}
+}
+/*************Distance between Speeches and Keynote Addresses title***********/
+@media (min-width: 320px) and (max-width: 800px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article.item-page.speechescss123.single-item div.itemBody header h1{
+margin-bottom: -15px;
+}
+}
+/**********************************************************************************/
+/**********Interviews/Articles 'a' link text size and weigth*************/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article#k2Container.itemView.single-item div.itemBody 
+div.itemFullText ol li a{
+	font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    text-decoration: none;
+}
+/**********Interviews/Articles*********/
+@media (min-width: 320px) and (max-width: 360px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article#k2Container.itemView.single-item 
+div.itemBody div.itemFullText ol li a{
+	font-size: 14px;
+    font-weight: 500;
+    line-height: 0.5;
+}
+
+/*********Padding to li to give spacing between interview links********/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article#k2Container.itemView.single-item div.itemBody div.itemFullText ol li{
+margin:8px 0;
+}
+/*******Aligning ol with interviews/Articles title**********/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article#k2Container.itemView.single-item div.itemBody div.itemFullText ol{
+list-style: outside none decimal;
+margin-left:20px;
+}
+}/**END @media (min-width: 320px) and (max-width: 360px)**/
+
+@media (min-width: 768px) and (max-width: 800px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article#k2Container.itemView.single-item div.itemBody 
+div.itemFullText ol li a{
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+}
+/**********END interviews/Articles 'a' link text size and weigth*************/
+/*******Aligning ol with interviews title**********/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody article#k2Container.itemView.single-item div.itemBody div.itemFullText ol{
+list-style: outside none decimal;
+margin-left:20px;
+}
+}/*****END @media (min-width: 768px) and (max-width: 800px)*****/
+/**********************************************************************************/
+/*********************************SPEECHES*************************************************/
+/**************Left aligns ol with Speeches title**************/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom1.gkSingleModule div.gkCols6 
+div#gkBottom1-1.box.mySpeechescss.gkmod-1 div.content div.custom.mySpeechescss ol,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom2.gkSingleModule div.gkCols6 
+div.box.mySpeechesConvocationcss.gkmod-1 div.content div.custom.mySpeechesConvocationcss 
+div.myConvocationAddr ol{
+list-style: outside none decimal;
+margin-left:20px;
+}
+
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom1.gkSingleModule div.gkCols6 
+div#gkBottom1-1.box.mySpeechescss.gkmod-1 div.content div.custom.mySpeechescss ol li a,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom2.gkSingleModule div.gkCols6 
+div.box.mySpeechesConvocationcss.gkmod-1 div.content div.custom.mySpeechesConvocationcss 
+div.myConvocationAddr ol li a{
+	font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    text-decoration: none;
+}
+@media (min-width: 320px) and (max-width: 360px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom1.gkSingleModule div.gkCols6 
+div#gkBottom1-1.box.mySpeechescss.gkmod-1 div.content div.custom.mySpeechescss ol li a,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom2.gkSingleModule div.gkCols6 
+div.box.mySpeechesConvocationcss.gkmod-1 div.content div.custom.mySpeechesConvocationcss 
+div.myConvocationAddr ol li a{
+	font-size: 14px;
+    font-weight: 500;
+    line-height: 0.5;
+}
+/*********Padding to li to give spacing between Keynote Addresses/Convocation Addresses links********/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom1.gkSingleModule 
+div.gkCols6 div#gkBottom1-1.box.mySpeechescss.gkmod-1 div.content div.custom.mySpeechescss ol li,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom2.gkSingleModule 
+div.gkCols6 div.box.mySpeechesConvocationcss.gkmod-1 div.content div.custom.mySpeechesConvocationcss 
+div.myConvocationAddr ol li{
+	margin:18px 0; /*****8px*******/
+}
+}/*****END @media (min-width: 320px) and (max-width: 360px)*****/
+/**********Sets font size etc****************/
+@media (min-width: 768px) and (max-width: 800px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom1.gkSingleModule div.gkCols6 
+div#gkBottom1-1.box.mySpeechescss.gkmod-1 div.content div.custom.mySpeechescss ol li a,
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkBottom2.gkSingleModule div.gkCols6 
+div.box.mySpeechesConvocationcss.gkmod-1 div.content div.custom.mySpeechesConvocationcss 
+div.myConvocationAddr ol li a{
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+}
+}/**********END @media (min-width: 768px) and (max-width: 800px)************/
+
+/*********************************END SPEECHES*************************************************/
+/*********Positions Back inside Articles/Interviews*********/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.backCss div.content div.custom.backCss{
+margin-top:-40px;
+}
+/**********Increases the height of footer to occupy the empty space in iPad********/
+@media (min-width: 768px) and (max-width: 1200px){
+div#gkBg div#gkContentWrapper.gkPage footer#gkFooter{
+padding-bottom:720px;/*********Old 120******/
+}
+}
+/***********Research Papers Title underline***************/
+div#gkBg div#gkContentWrapper.gkPage 
+div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbody div#k2Container.itemListView.researchPapersCss 
+div.itemListCategoriesBlock div.itemsCategory h2{
+border-bottom: 1px solid #eee;
+width:35%;
+}
+/************End Research Papers Styling*****************/
+/*********Distance between end of content and Back in Convocation Addresses**********/
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap div#gkPageContent.gkPage 
+section#gkContent div#gkMainbodyBottom div.box.convocationAddressesBack 
+div.content div.custom.convocationAddressesBack{
+margin-top:-50px;
+}
+
+/***********Title size in videos************/
+@media (min-width: 768px) and (max-width: 768px){
+div#gkBg div#gkContentWrapper.gkPage div#gkPageContentWrap 
+div#gkPageContent.gkPage section#gkContent div#gkMainbody article.item-page.myvideoscss.single-item 
+div.itemBody div span div.gkCols div.gkblock-1 div h5.myvideoscssh5{
+font-size: 12px;
+}
+}
+/*******************Size of the Title Text Box in Create a Blog Functionality*********************************/
+#gkMainbody article.item-pagecreateBlogCss #adminForm fieldset:nth-child(1) div:nth-child(2) input#jform_title{
+width:550px !important;
+}
+#gkMainbody article.item-pagemyBlogCss #adminForm fieldset:nth-child(1) div.formelm input#jform_title{
+width:400px;
+}
+/******************Hiding Forgot Your Username Password****************/
+#form-login-remind{
+display:none;
+}
